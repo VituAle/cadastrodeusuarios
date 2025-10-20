@@ -13,5 +13,9 @@ public class Users extends PanacheEntityBase {
     public UUID id;
     public String nomedousuario;
     public String email;
+    public String cpf;
+    public String telefone;
+    public String endereco;
+
 
 }

@@ -28,6 +28,9 @@ public class UserService {
         var user = listarUsuarioPorId(uuid);
         user.nomedousuario = users.nomedousuario;
         user.email = users.email;
+        user.cpf = users.cpf;
+        user.telefone = users.telefone;
+        user.endereco = users.endereco;
         Users.persist(user);
         return user;
     }
